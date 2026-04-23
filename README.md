@@ -1,11 +1,11 @@
 # Lichess Tournament Manager
 
-A full-stack React SPA web application for organising and running chess tournaments using Lichess player data.
+A full-stack React SPA web application for organizing and running chess tournaments using Lichess player data.
 Supports **Single Elimination**, **Double Elimination**, and **Swiss** formats with live bracket
 visualisation, drag-and-drop seeding, and shareable tournament links.
 
 > **CSC 365 Final Project** — built with React 19, Express 4, and the Lichess public API.
-> **By Maddax Klingensmith, and Jack Lawson**
+> **By Maddax Klingensmith and Jack Lawson**
 
 ## Contents
 
@@ -35,7 +35,7 @@ cd CSC365-Final-Project
 npm install
 ```
 
-No environment variables are needed. The backend writes data to `db.json` which will be created on first run.
+No environment variables are needed. The backend writes data to `db.json`, which will be created on the first run.
 
 ## Running the App
 
@@ -46,7 +46,7 @@ npm run start
 
 > **Note:** `db.json` is deleted on server shutdown in the current implementation, 
 > as the server uses a cleanup hook for easier testing and demonstration.
-> Remove cleanup hook if you want your backend data to persist after the server closes.
+> Remove the cleanup hook if you want your backend data to persist after the server closes.
 
 ## File Structure
 ```
@@ -86,15 +86,15 @@ src/
 
 - Players are eliminated after two losses.
 - There is a **Winners Bracket** and a **Losers Bracket**.
-- When a player loses in the Winners Bracket they are moved to the corresponding
+- When a player loses in the Winners Bracket, they are moved to the corresponding
   round of the Losers Bracket
 - The winner of each bracket meets in a **Grand Final**.
 
-### Swiss System
+### Swiss
 
-- Players are not eliminated, players win by score.
+- Players are not eliminated; players win by score.
 - Number of rounds is configurable.
-- Each round, players are paired with opponents who have a similiar score, without rematches.
+- Each round, players are paired with opponents who have a similar score, without rematches.
 - A standings table tracks points across rounds.
 
 ## Third-Party Libraries
