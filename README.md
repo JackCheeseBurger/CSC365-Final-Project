@@ -31,7 +31,7 @@ No external database or API key is required. Player data is retrieved from the
 cd CSC365-Final-Project
 
 # 2. Install dependencies
-npm install
+npm install prop-types --legacy-peer-deps  
 ```
 
 No environment variables are needed. The backend writes data to `db.json`, which will be created on the first run.
