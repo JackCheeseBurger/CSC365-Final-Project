@@ -110,4 +110,4 @@ src/
 [Lichess API](https://lichess.org/api) | — | AGPL-3 (server) | Player Data Source |
 
 Player data is fetched from the Lichess public API. This project is **not affiliated
-with Lichess.org**. Use of the Lichess API is subject to their [Terms of Service].
+with Lichess.org**. Use of the Lichess API is subject to their Terms of Service.
