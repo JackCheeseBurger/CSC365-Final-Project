@@ -46,6 +46,7 @@ npm run start
 > **Note:** `db.json` is deleted on server shutdown in the current implementation, 
 > as the server uses a cleanup hook for easier testing and demonstration.
 > Remove the cleanup hook if you want your backend data to persist after the server closes.
+> You can kill the app with ctrl+c in the console.
 
 ## File Structure
 ```
