@@ -2,9 +2,9 @@
 
 A full-stack React SPA web application for organizing and running chess tournaments using Lichess player data.
 Supports **Single Elimination**, **Double Elimination**, and **Swiss** formats with live bracket
-visualisation, drag-and-drop seeding, and shareable tournament links.
+visualisation, seeding, and shareable tournament links.
 
-> **CSC 365 Final Project** — built with React 19, Express 4, and the Lichess public API.
+> **CSC 365 Final Project**  built with React 19, Express 4, and the Lichess public API.
 > **By Maddax Klingensmith and Jack Lawson**
 
 ## Contents
@@ -31,7 +31,7 @@ No external database or API key is required. Player data is retrieved from the
 cd CSC365-Final-Project
 
 # 2. Install dependencies
-npm install
+npm install --legacy-peer-deps
 ```
 
 No environment variables are needed. The backend writes data to `db.json`, which will be created on the first run.
