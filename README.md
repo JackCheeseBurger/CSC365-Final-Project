@@ -28,7 +28,7 @@ No external database or API key is required. Player data is retrieved from the
 
 ```bash
 # 1. Clone or unzip the project
-cd CSC365-Final-Project
+cd Final-Project-CSC365
 
 # 2. Install dependencies
 npm install --legacy-peer-deps
